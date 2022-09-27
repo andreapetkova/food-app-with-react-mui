@@ -21,7 +21,7 @@ export const Meals = () => {
         loadedMeals.push({
           id: key,
           name: data[key].name,
-          description: data[key.description],
+          description: data[key].description,
           price: data[key].price,
         });
       }

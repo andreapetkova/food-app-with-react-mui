@@ -16,7 +16,7 @@ export const styles = {
     border: '4px solid #FA7070',
     borderRadius: '15px',
     padding: '30px',
-    margin: '50px auto 0',
+    margin: '50px auto',
     backgroundColor: 'secondary.main',
   },
   cartModal: {
