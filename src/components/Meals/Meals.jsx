@@ -33,7 +33,6 @@ export const Meals = () => {
       setIsLoading(false);
       setHttpError(err.message);
     });
-    console.log('request is sent');
   }, []);
 
   const mealsList = meals.map(meal => (
